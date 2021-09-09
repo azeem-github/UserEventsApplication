@@ -18,8 +18,8 @@
             </div>
               
                 <ul class="nav navbar-nav navbar-left">  
-                    <li class="active"> <?php echo anchor('admin/adminreg', 'Admin Signup') ?> </li>
-                    <li class="active"> <?php echo anchor('admin/adminlog', 'Admin Sign-in') ?> </li>
+                    <li class="active"> <?php echo anchor('user/userreg', 'User Signup') ?> </li>
+                    <li class="active"> <?php echo anchor('user/userlog', 'User Sign-in') ?> </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">                     
                    <li class="active"><?php echo anchor('admin/logout', 'Logout')?></li>

@@ -8,7 +8,7 @@
   </div>
 </nav>
 <div class="col-md-15 offset-sm-10 text-center">
-<colspan="15" align="center" style=color:dodgerblue><br><h1 style="text-decoration: underline;"><b>Welcome To Admin Register/Login Page :D </b></h1>
+<colspan="15" align="center" style=color:dodgerblue><br><h1 style="text-decoration: underline;"><b>Welcome To Admin Register / Login Page :D </b></h1>
 <br> <br> <br> <br> <br>
 </div> 
 

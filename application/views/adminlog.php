@@ -1,6 +1,7 @@
 <?php require_once('includes/header.php');?>
 <title>Admin Login | Project</title>
 <div class="container">
+
 <div class="col-sm-15 offset-sm-3 text-center">
 <div class="jumbotron">
 <h3 style="text-decoration: underline;"><b>Admin Login :</h3></b>
