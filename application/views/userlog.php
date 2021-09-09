@@ -3,8 +3,8 @@
 <title>User Login | Project</title>
 <div class="container">
 
-<?php echo anchor('user/userreg', 'User Register')?> |
-<?php echo anchor('user/userlog', 'User Login')?>
+
+<?php echo anchor('admin/index', 'Home')?>
 <div class="col-sm-15 offset-sm-3 text-center">
 <br>
 <div class="jumbotron">

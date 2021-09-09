@@ -3,11 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Admin_model extends CI_Model {
 
-    public function save($admindata){
-        $this->db->insert('admin', $admindata);
-        return $this->db->insert_id();
-    }
-
     public function login($email, $password)
 	{
         $this->db->where('email', $email);
@@ -19,4 +14,10 @@ class Admin_model extends CI_Model {
         }
         return false;
 	}
+    public function adminuseradd()
+    {
+     $email = $this->session->userdata('email');
+    $data = $this->db->get_where('user', array('admin_email'=>$email))->result_array();
+    return $data;
+    }
 }

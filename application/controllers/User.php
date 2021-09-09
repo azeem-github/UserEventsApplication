@@ -23,7 +23,7 @@ class User extends CI_Controller {
             if($this->form_validation->run() == TRUE){
    
                $data = array(
-                  
+                  'admin_email' => $_SESSION['username'],
                   'username'=>$_POST ['username'],
                   'email'=>$_POST ['email'],
                   'password'=>md5($_POST ['password']),

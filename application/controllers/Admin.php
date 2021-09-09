@@ -11,7 +11,7 @@ class Admin extends CI_Controller {
    }
    public function index()
 	{
-        $this->load->view('index');
+        $this->load->view('home');
 	}
 
    public function adminreg()
@@ -74,6 +74,7 @@ $this->load->view('adminreg');
       
     $this->load->view('adminlog');
    }
+  
   
    public function admindata()
    {

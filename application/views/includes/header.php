@@ -17,13 +17,7 @@
               <h2 style="text-decoration: underline;">  <a class="navbar-brand"> Events Project</a></h2>
             </div>
             <ul class="nav navbar-nav navbar-left">
-            <li><?php echo anchor('admin/index', 'Home')?></li>
-            
-            </ul>
-                    <ul class="nav navbar-nav navbar-left">
-                    <li><?php echo anchor('admin/adminreg', 'Admin Sign Up')?></li>
-                    <li><?php echo anchor('admin/adminlog', 'Admin Login')?></li>                               
-                    </ul>
-                   
+            <li><?php echo anchor('admin/index', 'Home')?></li>            
+            </ul>                                  
          </div>
 </nav>

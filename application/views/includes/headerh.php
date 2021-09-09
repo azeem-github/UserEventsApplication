@@ -22,10 +22,8 @@
                     <li class="active"> <?php echo anchor('admin/adminreg', 'Admin Sign-Up') ?> </li>
                     <li class="active"> <?php echo anchor('admin/adminlog', 'Admin Sign-In') ?> </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">  
-                
-                <!-- <li class="active"> <?php //echo anchor('user/userreg', 'User Sign-Up') ?> </li>
-                <li class="active"> <?php //echo anchor('user/userlog', 'User Sign-In') ?> </li>
-                </ul> -->
+                    <ul class="nav navbar-nav navbar-right">                 
+                <li class="active"> <?php echo anchor('user/userlog', 'User Sign-In') ?> </li>
+                </ul>
          </div>
 </nav>
